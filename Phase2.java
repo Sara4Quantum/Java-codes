@@ -1,12 +1,13 @@
 import java.util.*;
-public class Alphabet_Patterns_Printing{
+public class Phase2{
  
 public static void main(String []args){
 
 // i will beleive, my patterns printing codes help you to build the better logical thinking..
- Alphabet_Patterns_Printing pa = new  Alphabet_Patterns_Printing();
+Phase2 pa = new  Phase2();
 
-
+pa.printSquare();
+ System.out.println();
 pa.printA();
 System.out.println();// These Empty Print statement is just for extra space to better printing by calling...
 
@@ -89,6 +90,21 @@ System.out.println();
 
 }
 
+ public void printSquare(){
+
+  for(int row=1;row<=7;row++){
+      for(int col=1;col<=7;col++){
+       if(row==1 || row==7 || col==1 || col==7){
+        System.out.print("* ");
+       }
+       else System.out.print("  ");
+      }
+   System.out.println();
+   
+  }
+  
+ }
+ 
 public void printA(){
 /*
                      
