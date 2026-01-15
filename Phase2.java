@@ -1,6 +1,6 @@
 import java.util.*;
 public class Phase2{
- 
+  
 public static void main(String []args){
 
 // i will beleive, my patterns printing codes help you to build the better logical thinking..
